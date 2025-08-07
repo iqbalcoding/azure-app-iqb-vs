@@ -14,6 +14,8 @@ namespace azure_app_iqb_vs.Pages
 
         public void OnGet()
         {
+
+            throw new Exception("Testing Insight");
         }
     }
 

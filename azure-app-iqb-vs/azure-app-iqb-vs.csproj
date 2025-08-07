@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_iqb_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/845de9b2-7cda-45d8-a52c-edc5807eaf71/resourceGroups/az-group-rg/providers/microsoft.insights/components/az-webapp-iqb-cd-git</ApplicationInsightsResourceId>
+    <UserSecretsId>b0a72484-5e71-4587-98d0-bf44b8c32613</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
